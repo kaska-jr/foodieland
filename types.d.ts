@@ -67,3 +67,18 @@ type ExpansionProps = {
   accordionImg: string;
   open?: boolean;
 };
+
+type INSTAGRAM_TYPE = {
+  id: string;
+  postImage: string;
+  likes: string;
+  caption: string;
+  firstLiker: string;
+  handle: string;
+  comments: {
+    id: string;
+    username: string;
+    text: string;
+  }[];
+  time: string;
+};
