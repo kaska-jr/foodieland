@@ -3,6 +3,10 @@ import { Container, SectionHeader, Recipe } from "@/app/components";
 import { RECIPES } from "@/app/utils/data";
 
 const Recipes = () => {
+  function sliceArrayToFour(arr: RECIPE_TYPE[]) {
+    return arr.slice(0, 9);
+  }
+  const slicedRecipes = sliceArrayToFour(RECIPES);
   return (
     <Container>
       <div className="my-20">
@@ -11,7 +15,7 @@ const Recipes = () => {
           subHeaderText="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim "
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 my-20">
-          {RECIPES.map((recipe, index) => {
+          {slicedRecipes.map((recipe, index) => {
             if (index === 5) {
               return (
                 <div

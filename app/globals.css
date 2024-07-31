@@ -28,6 +28,13 @@
   margin-bottom: 1rem;
   line-height: 1.25;
 }
+
+.clampHeader3 {
+  font-size: clamp(1.5rem, 2.2vw, 2.5rem);
+  margin-bottom: 1rem;
+  line-height: 1.25;
+}
+
 .clampSubHeader {
   font-size: clamp(1rem, 1.8vw, 1.06rem);
   margin-bottom: 1rem;

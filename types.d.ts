@@ -32,10 +32,38 @@ type SOCIAL_LINKS_TYPE = {
 };
 
 type RECIPE_TYPE = {
-  id: string;
+  id: number;
   name: string;
   recipeImg: string;
   loved: boolean | undefined;
   time: string;
   tagText: string;
+  recipieClasses: string;
+};
+
+type INSTAGRAM_TYPE = {
+  id: string;
+  postImage: string;
+  likes: string;
+  caption: string;
+  firstLiker: string;
+  handle: string;
+  comments: {
+    id: string;
+    username: string;
+    text: string;
+  }[];
+  time: string;
+};
+
+type NutritionProps = {
+  name: string;
+  value: string;
+};
+
+type ExpansionProps = {
+  name: string;
+  paragraph1: string;
+  accordionImg: string;
+  open?: boolean;
 };

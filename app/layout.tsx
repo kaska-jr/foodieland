@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Lobster } from "next/font/google";
 import "./globals.css";
 import { Footer, Navbar } from "./components";
+import UiProvider from "./components/UiProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 export const lobster = Lobster({
@@ -22,9 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
+        <UiProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </UiProvider>
       </body>
     </html>
   );
