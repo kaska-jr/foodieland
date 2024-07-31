@@ -12,4 +12,6 @@ export { default as Categories } from "@/app/components/home/Categories";
 export { default as Category } from "@/app/components/home/Category";
 export { default as Recipe } from "@/app/components/home/Recipe";
 export { default as Recipes } from "@/app/components/home/Recipes";
+export { default as LearnMore } from "@/app/components/home/LearnMore";
+
 //Export Recipe Components

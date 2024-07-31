@@ -183,3 +183,30 @@ export const RECIPES: RECIPE_TYPE[] = [
     tagText: "Noodles",
   },
 ];
+
+export const LEARN_MORE_DATA = [
+  {
+    id: nanoid(),
+    imgUrl: "/tomatoes.svg",
+    TagClasses:
+      "block absolute left-0 -translate-x-1/2 bottom-[20%] w-10 h-auto lg:w-12 lg:h-auto ",
+  },
+  {
+    id: nanoid(),
+    imgUrl: "/garlic.svg",
+    TagClasses:
+      "block absolute right-[26%] top-[15%] w-10 h-auto lg:w-12 lg:h-auto",
+  },
+  {
+    id: nanoid(),
+    imgUrl: "/category-meat.svg",
+    TagClasses:
+      "block absolute left-[10%] top-[10%] w-10 h-auto lg:w-12 lg:h-auto",
+  },
+  {
+    id: nanoid(),
+    imgUrl: "/category-vegan.svg",
+    TagClasses:
+      "block absolute right-[3%] top-[30%] w-10 h-auto lg:w-12 lg:h-auto",
+  },
+];

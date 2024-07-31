@@ -1,5 +1,6 @@
 "use client";
 import { Categories, Hero, Recipes } from "./components";
+import LearnMore from "./components/home/LearnMore";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Hero />
       <Categories />
       <Recipes />
+      <LearnMore />
     </main>
   );
 }

@@ -10,7 +10,7 @@ const Recipes = () => {
           headerText="Simple and tasty recipes"
           subHeaderText="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim "
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 my-20">
           {RECIPES.map((recipe, index) => {
             if (index === 5) {
               return (
@@ -19,7 +19,7 @@ const Recipes = () => {
                   className="w-full overflow-hidden rounded-2xl max-h-[380px] lg:max-h-[350px] "
                   style={{
                     backgroundImage: `url(${recipe.recipeImg})`,
-                    backgroundSize: "cover",
+                    backgroundSize: "contain",
                     backgroundPosition: "center",
                   }}
                 ></div>
