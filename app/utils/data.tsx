@@ -363,3 +363,25 @@ export const INSTAGRAM_DATA: INSTAGRAM_TYPE[] = [
     time: "September 19",
   },
 ];
+
+//Recipe Suggestions
+export const RECIPE_SUGGESTIONS = [
+  {
+    id: 5,
+    name: "Chicken Meatballs with Cream Cheese Sauce",
+    img: "/recipe-img-5.png",
+    author: "By Andreas Paula",
+  },
+  {
+    id: 7,
+    name: "The Creamiest Creamy Chicken and Bacon Pasta",
+    img: "/recipe-img-7.png",
+    author: "By Andreas Paula",
+  },
+  {
+    id: 9,
+    name: "Big and Juicy Wagyu Beef Cheeseburger",
+    img: "/recipe-img-8.png",
+    author: "By Andreas Paula",
+  },
+];

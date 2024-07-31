@@ -2,8 +2,10 @@ import { Container, Newsletter, SectionHeader } from "@/app/components";
 import Ingredients from "@/app/components/recipe/Ingredients";
 import MoreRecipes from "@/app/components/recipe/MoreRecipes";
 import RecipeAccordion from "@/app/components/recipe/RecipeAccordion";
+import RecipieSuggestions from "@/app/components/recipe/RecipieSuggestions";
 import SingleRecipeBanner from "@/app/components/recipe/SingleRecipeBanner";
 import SingleRecipeHeader from "@/app/components/recipe/SingleRecipeHeader";
+import Ads from "@/app/components/shared/Ads";
 import { RECIPES } from "@/app/utils/data";
 import React from "react";
 
@@ -21,7 +23,10 @@ const SingleRecipe = ({ params }: { params: { recipe_id: number } }) => {
               <Ingredients />
               <RecipeAccordion />
             </div>
-            <div className="basis-[35%]"></div>
+            <div className="basis-[35%]">
+              <RecipieSuggestions />
+              <Ads />
+            </div>
           </div>
         </Container>
         <Newsletter />
