@@ -11,7 +11,7 @@ const Tag = ({
 }) => {
   return (
     <span
-      className={`${TagClasses} px-3 py-1 rounded-full text-center capitalize flex items-center gap-2 h-fit`}
+      className={`${TagClasses} px-3 py-2 rounded-full text-center capitalize flex items-center gap-2 h-fit w-fit`}
     >
       <img src={imgUrl} className="w-[18px] h-auto" alt={`${text}-icon`} />
       <span className="text-[13px]">{text}</span>

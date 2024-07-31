@@ -22,23 +22,20 @@
   margin-bottom: 1rem;
   line-height: 1.25;
 }
-/* .clampHeader {
-  font-size: clamp(1.5rem, 3vw, 3rem);
-  margin-bottom: 1rem;
-  line-height: 1.25;
-} */
 
-/* .clampFeaturesHeader {
-  font-size: clamp(1.3rem, 3vw, 1.4rem);
+.clampHeader2 {
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
   margin-bottom: 1rem;
   line-height: 1.25;
 }
-.clampFeaturesHeader2 {
-  font-size: clamp(1.5rem, 3vw, 2rem);
+.clampSubHeader {
+  font-size: clamp(1rem, 1.8vw, 1.06rem);
   margin-bottom: 1rem;
   line-height: 1.25;
 }
-.clampFeaturesHeader3 {
-  font-size: clamp(1.3rem, 3vw, 1.4rem);
-  line-height: 1.25;
-} */
+
+.bannerImage {
+  background-image: url("/public/bannerImage-chicken.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

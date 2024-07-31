@@ -8,11 +8,11 @@ const SectionHeader = ({
   subHeaderText?: string;
 }) => {
   return (
-    <div className="text-center">
-      <h1 className="text-5xl font-bold text-secondary-200 clampHeader1">
+    <div className="text-center flex flex-col items-center justify-center">
+      <h1 className="text-5xl font-bold text-secondary-200 clampHeader1 text-center">
         {headerText}
       </h1>
-      <h4 className="max-w-2xl text-gray-400">{subHeaderText}</h4>
+      <h4 className="max-w-2xl text-gray-400 text-center">{subHeaderText}</h4>
     </div>
   );
 };

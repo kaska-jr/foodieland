@@ -22,10 +22,20 @@ type CATEGORY_TYPE = {
   id: string;
   name: string;
   imgUrl: string;
+  categoryClass: string;
 };
 
 type SOCIAL_LINKS_TYPE = {
   id: string;
   url: string;
   icon: ReactElement;
+};
+
+type RECIPE_TYPE = {
+  id: string;
+  name: string;
+  recipeImg: string;
+  loved: boolean | undefined;
+  time: string;
+  tagText: string;
 };
