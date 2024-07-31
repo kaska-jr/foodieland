@@ -1,8 +1,6 @@
 import { nanoid } from "nanoid";
 import React from "react";
-import Tag from "../shared/Tag";
-import Loved from "./Loved";
-import UnLoved from "./UnLoved";
+import { Tag, Loved, UnLoved } from "@/app/components";
 
 const Recipe = ({ name, recipeImg, id, loved, time, tagText }: RECIPE_TYPE) => {
   const RecipeTagData = [

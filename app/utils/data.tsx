@@ -210,3 +210,64 @@ export const LEARN_MORE_DATA = [
       "block absolute right-[3%] top-[30%] w-10 h-auto lg:w-12 lg:h-auto",
   },
 ];
+
+//instagram post
+export const INSTAGRAM_DATA: INSTAGRAM_TYPE[] = [
+  {
+    id: nanoid(),
+    postImage: "/insta-feed-1.png",
+    caption:
+      "The vegetables dishes need to have certain vitamin for those people",
+    likes: "44,686",
+    firstLiker: "craig_love",
+    handle: "Foodieland.",
+    comments: [
+      { id: nanoid(), username: "commenter1", text: "Amazing!" },
+      { id: nanoid(), username: "commenter2", text: "Wow!" },
+    ],
+    time: "September 19",
+  },
+
+  {
+    id: nanoid(),
+    postImage: "/insta-feed-2.png",
+    caption:
+      "Sweet food can bring someon into happiness as long as they don’t eat to much",
+    likes: "44,686",
+    firstLiker: "craig_love",
+    handle: "Foodieland.",
+    comments: [
+      { id: nanoid(), username: "commenter1", text: "Amazing!" },
+      { id: nanoid(), username: "commenter2", text: "Wow!" },
+    ],
+    time: "September 19",
+  },
+  {
+    id: nanoid(),
+    postImage: "/insta-feed-3.png",
+    caption:
+      "What are you doing before start cooking? prepare the  tools or ingredients?",
+    likes: "44,686",
+    firstLiker: "craig_love",
+    handle: "Foodieland.",
+    comments: [
+      { id: nanoid(), username: "commenter1", text: "Amazing!" },
+      { id: nanoid(), username: "commenter2", text: "Wow!" },
+    ],
+    time: "September 19",
+  },
+  {
+    id: nanoid(),
+    postImage: "/insta-feed-4.png",
+    caption:
+      "Steak never be wrong, it’s suitable for you who want romantic dinner",
+    likes: "44,686",
+    firstLiker: "craig_love",
+    handle: "Foodieland.",
+    comments: [
+      { id: nanoid(), username: "commenter1", text: "Amazing!" },
+      { id: nanoid(), username: "commenter2", text: "Wow!" },
+    ],
+    time: "September 19",
+  },
+];

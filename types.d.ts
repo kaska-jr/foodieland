@@ -39,3 +39,18 @@ type RECIPE_TYPE = {
   time: string;
   tagText: string;
 };
+
+type INSTAGRAM_TYPE = {
+  id: string;
+  postImage: string;
+  likes: string;
+  caption: string;
+  firstLiker: string;
+  handle: string;
+  comments: {
+    id: string;
+    username: string;
+    text: string;
+  }[];
+  time: string;
+};

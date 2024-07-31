@@ -1,6 +1,5 @@
 "use client";
-import { Categories, Hero, Recipes } from "./components";
-import LearnMore from "./components/home/LearnMore";
+import { Categories, Hero, Recipes, Instagram, LearnMore } from "./components";
 
 export default function Home() {
   return (
@@ -9,6 +8,7 @@ export default function Home() {
       <Categories />
       <Recipes />
       <LearnMore />
+      <Instagram />
     </main>
   );
 }
