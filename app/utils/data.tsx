@@ -1,31 +1,32 @@
 import { nanoid } from "nanoid";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 // Navigation Links
 export const NAV_LINKS: NAV_LINKS_TYPE[] = [
   {
     id: nanoid(),
-    name: "home",
-    href: "/",
+    text: "home",
+    url: "/",
   },
   {
     id: nanoid(),
-    name: "recipes",
-    href: "/recipes",
+    text: "recipes",
+    url: "/recipes",
   },
   {
     id: nanoid(),
-    name: "blogs",
-    href: "#",
+    text: "blogs",
+    url: "#",
   },
   {
     id: nanoid(),
-    name: "contact",
-    href: "#",
+    text: "contact",
+    url: "#",
   },
   {
     id: nanoid(),
-    name: "about us",
-    href: "#",
+    text: "about us",
+    url: "#",
   },
 ];
 
@@ -78,5 +79,24 @@ export const CATEGORY: CATEGORY_TYPE[] = [
     id: nanoid(),
     name: "vegan",
     imgUrl: "/category-meat.svg",
+  },
+];
+
+// Social Links Data
+export const SOCIAL_LINKS: SOCIAL_LINKS_TYPE[] = [
+  {
+    id: nanoid(),
+    url: "https://www.twitter.com",
+    icon: <FaFacebook />,
+  },
+  {
+    id: nanoid(),
+    url: "https://www.twitter.com",
+    icon: <FaTwitter />,
+  },
+  {
+    id: nanoid(),
+    url: "https://www.twitter.com",
+    icon: <FaInstagram />,
   },
 ];
