@@ -1,8 +1,6 @@
 import React from "react";
-import SectionHeader from "../shared/SectionHeader";
-import Recipe from "../home/Recipe";
+import { SectionHeader, Recipe, Container } from "@/app/components";
 import { RECIPES } from "@/app/utils/data";
-import Container from "../shared/Container";
 
 const MoreRecipes = () => {
   function sliceArrayToFour(arr: RECIPE_TYPE[]) {

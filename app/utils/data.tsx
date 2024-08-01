@@ -116,7 +116,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: true,
     time: "30 Minutes",
     tagText: "snack",
-    recipieClasses:
+    recipeClasses:
       "bg-gradient-to-t from-[rgba(231,249,253,1)] to-[rgba(231,249,253,0.001)]",
   },
 
@@ -127,7 +127,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "fish",
-    recipieClasses:
+    recipeClasses:
       "bg-gradient-to-t from-[rgba(231,249,253,1)] to-[rgba(231,249,253,0.001)]",
   },
   {
@@ -137,7 +137,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "Breakfast",
-    recipieClasses:
+    recipeClasses:
       "bg-gradient-to-t from-[rgba(231,249,253,1)] to-[rgba(231,249,253,0.001)]",
   },
   {
@@ -147,7 +147,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: true,
     time: "30 Minutes",
     tagText: "Healthy",
-    recipieClasses:
+    recipeClasses:
       "bg-gradient-to-t from-[rgba(231,249,253,1)] to-[rgba(231,249,253,0.001)]",
   },
   {
@@ -157,7 +157,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "meat",
-    recipieClasses:
+    recipeClasses:
       "bg-gradient-to-t from-[rgba(231,249,253,1)] to-[rgba(231,249,253,0.001)]",
   },
   {
@@ -167,7 +167,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: undefined,
     time: "",
     tagText: "",
-    recipieClasses:
+    recipeClasses:
       "bg-gradient-to-t from-[rgba(231,249,253,1)] to-[rgba(231,249,253,0.001)]",
   },
   {
@@ -177,7 +177,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "sweet",
-    recipieClasses:
+    recipeClasses:
       "bg-gradient-to-t from-[rgba(231,249,253,1)] to-[rgba(231,249,253,0.001)]",
   },
   {
@@ -187,7 +187,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "Snack",
-    recipieClasses:
+    recipeClasses:
       "bg-gradient-to-t from-[rgba(231,249,253,1)] to-[rgba(231,249,253,0.001)]",
   },
   {
@@ -197,7 +197,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "Noodles",
-    recipieClasses:
+    recipeClasses:
       "bg-gradient-to-t from-[rgba(231,249,253,1)] to-[rgba(231,249,253,0.001)]",
   },
 
@@ -208,7 +208,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: true,
     time: "30 Minutes",
     tagText: "healthy",
-    recipieClasses: "",
+    recipeClasses: "",
   },
   {
     id: 9,
@@ -217,7 +217,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "Western",
-    recipieClasses: "",
+    recipeClasses: "",
   },
   {
     id: 10,
@@ -226,7 +226,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "Healthy",
-    recipieClasses: "",
+    recipeClasses: "",
   },
   {
     id: 11,
@@ -235,7 +235,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: true,
     time: "30 Minutes",
     tagText: "Eastern",
-    recipieClasses: "",
+    recipeClasses: "",
   },
   {
     id: 12,
@@ -244,7 +244,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "meat",
-    recipieClasses: "",
+    recipeClasses: "",
   },
 
   {
@@ -254,7 +254,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "snack",
-    recipieClasses: "",
+    recipeClasses: "",
   },
   {
     id: 14,
@@ -263,7 +263,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "healthy",
-    recipieClasses: "",
+    recipeClasses: "",
   },
   {
     id: 15,
@@ -272,10 +272,11 @@ export const RECIPES: RECIPE_TYPE[] = [
     loved: false,
     time: "30 Minutes",
     tagText: "Noodles",
-    recipieClasses: "",
+    recipeClasses: "",
   },
 ];
 
+//Learn More
 export const LEARN_MORE_DATA = [
   {
     id: nanoid(),
@@ -365,7 +366,7 @@ export const INSTAGRAM_DATA: INSTAGRAM_TYPE[] = [
 ];
 
 //Recipe Suggestions
-export const RECIPE_SUGGESTIONS = [
+export const RECIPE_SUGGESTIONS: RECIPE_SUGGESTIONS_TYPE[] = [
   {
     id: 5,
     name: "Chicken Meatballs with Cream Cheese Sauce",
@@ -383,5 +384,85 @@ export const RECIPE_SUGGESTIONS = [
     name: "Big and Juicy Wagyu Beef Cheeseburger",
     img: "/recipe-img-8.png",
     author: "By Andreas Paula",
+  },
+];
+
+//Ingredients
+export const INGREDIENTS_DATA = [
+  {
+    id: 1,
+    name: "Lorem ipsum dolor sit amet",
+  },
+  {
+    id: 2,
+    name: "Lorem ipsum dolor sit amet",
+  },
+  {
+    id: 3,
+    name: "Lorem ipsum dolor sit amet",
+  },
+  {
+    id: 4,
+    name: "Lorem ipsum dolor sit amet",
+  },
+];
+
+//Nutrition
+export const NUTRITION_DATA = [
+  {
+    id: nanoid(),
+    name: "Calories",
+    value: "219.9 kcal",
+  },
+  {
+    id: nanoid(),
+    name: "Total fat",
+    value: "10.7 g",
+  },
+  {
+    id: nanoid(),
+    name: "Carbohydrates",
+    value: "22.3 g",
+  },
+  {
+    id: nanoid(),
+    name: "Protein",
+    value: "8.9 g",
+  },
+];
+
+//Recipe Accordion
+export const RECIPE_ACCORDION_DATA: RECIPE_ACCORDION_DATA_TYPE[] = [
+  {
+    id: 1,
+    name: "Lorem ipsum dolor sit amet",
+    paragraph1:
+      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit  amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora  incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    accordionImg: "/accordion-img.png",
+    open: true,
+  },
+  {
+    id: 2,
+    name: "Lorem ipsum dolor sit amet",
+    paragraph1:
+      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit  amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora  incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    accordionImg: "/accordion-img.png",
+    open: false,
+  },
+  {
+    id: 3,
+    name: "Lorem ipsum dolor sit amet",
+    paragraph1:
+      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit  amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora  incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    accordionImg: "/accordion-img.png",
+    open: false,
+  },
+  {
+    id: 4,
+    name: "Lorem ipsum dolor sit amet",
+    paragraph1:
+      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit  amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora  incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    accordionImg: "/accordion-img.png",
+    open: false,
   },
 ];

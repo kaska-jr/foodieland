@@ -10,7 +10,7 @@ const Recipe = ({
   loved,
   time,
   tagText,
-  recipieClasses,
+  recipeClasses,
 }: RECIPE_TYPE) => {
   const RecipeTagData = [
     {
@@ -30,7 +30,7 @@ const Recipe = ({
   return (
     <Link
       href={`/recipe/${id}`}
-      className={`p-4 max-w-sm md:max-w-lg mx-auto overflow-hidden rounded-2xl max-h-[380px] lg:max-h-[350px] ${recipieClasses}`}
+      className={`p-4 max-w-sm md:max-w-lg mx-auto overflow-hidden rounded-2xl max-h-[380px] lg:max-h-[350px] ${recipeClasses}`}
     >
       <div className="flex flex-col h-full">
         <div className="md:shrink-0 rounded-lg overflow-hidden h-fit relative">

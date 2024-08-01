@@ -38,7 +38,7 @@ type RECIPE_TYPE = {
   loved: boolean | undefined;
   time: string;
   tagText: string;
-  recipieClasses: string;
+  recipeClasses: string;
 };
 
 type INSTAGRAM_TYPE = {
@@ -81,4 +81,25 @@ type INSTAGRAM_TYPE = {
     text: string;
   }[];
   time: string;
+};
+
+type RECIPE_SUGGESTIONS_TYPE = {
+  id: number;
+  name: string;
+  img: string;
+  author: string;
+};
+
+type NUTRITION_DATA_TYPE = {
+  id: string;
+  name: string;
+  value: string;
+};
+
+type RECIPE_ACCORDION_DATA_TYPE = {
+  id: number;
+  name: string;
+  paragraph1: string;
+  accordionImg: string;
+  open: boolean;
 };

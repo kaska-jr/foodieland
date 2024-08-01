@@ -1,6 +1,5 @@
 import React from "react";
-import { Button, Container, SectionHeader } from "@/app/components";
-import FeedPosts from "./FeedPosts";
+import { Button, Container, SectionHeader, FeedPosts } from "@/app/components";
 
 const Instagram = () => {
   return (

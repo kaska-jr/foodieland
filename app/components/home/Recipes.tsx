@@ -7,6 +7,7 @@ const Recipes = () => {
     return arr.slice(0, 9);
   }
   const slicedRecipes = sliceArrayToFour(RECIPES);
+
   return (
     <Container>
       <div className="my-20">

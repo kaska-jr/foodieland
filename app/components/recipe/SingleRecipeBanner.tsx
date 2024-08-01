@@ -1,14 +1,7 @@
 import React from "react";
-import Container from "../shared/Container";
-import Nutritions from "./Nutritions";
+import { Container, Nutritions } from "@/app/components";
 
-const SingleRecipeBanner = ({
-  name,
-  recipeImg,
-}: {
-  name: string;
-  recipeImg: string;
-}) => {
+const SingleRecipeBanner = ({ recipeImg }: { recipeImg: string }) => {
   return (
     <Container>
       <div className="flex items-center gap-10 w-full my-10">

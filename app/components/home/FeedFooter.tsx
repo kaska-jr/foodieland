@@ -2,17 +2,14 @@ import React from "react";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { FaRegComment } from "react-icons/fa";
 import { BsSend } from "react-icons/bs";
-import { CiBacon, CiBookmark } from "react-icons/ci";
+import { CiBookmark } from "react-icons/ci";
 
 const FeedFooter = ({
-  id,
   caption,
   likes,
-  comments,
   time,
   firstLiker,
   handle,
-  postImage,
 }: INSTAGRAM_TYPE) => {
   return (
     <div className="p-3 flex flex-col gap-2 h-full">

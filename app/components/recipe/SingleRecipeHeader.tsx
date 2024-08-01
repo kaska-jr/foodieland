@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../shared/Container";
+import { Container } from "@/app/components";
 
 const SingleRecipeHeader = ({ name }: { name: string }) => {
   return (

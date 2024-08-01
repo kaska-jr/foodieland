@@ -1,13 +1,17 @@
-import { Container, Newsletter, SectionHeader } from "@/app/components";
-import Ingredients from "@/app/components/recipe/Ingredients";
-import MoreRecipes from "@/app/components/recipe/MoreRecipes";
-import RecipeAccordion from "@/app/components/recipe/RecipeAccordion";
-import RecipieSuggestions from "@/app/components/recipe/RecipieSuggestions";
-import SingleRecipeBanner from "@/app/components/recipe/SingleRecipeBanner";
-import SingleRecipeHeader from "@/app/components/recipe/SingleRecipeHeader";
-import Ads from "@/app/components/shared/Ads";
 import { RECIPES } from "@/app/utils/data";
 import React from "react";
+import {
+  Container,
+  Newsletter,
+  Ingredients,
+  MoreRecipes,
+  RecipeAccordion,
+  RecipeSuggestions,
+  SingleRecipeBanner,
+  SingleRecipeHeader,
+  Ads,
+} from "@/app/components";
+import Link from "next/link";
 
 const SingleRecipe = ({ params }: { params: { recipe_id: number } }) => {
   const { recipe_id } = params;
@@ -24,7 +28,7 @@ const SingleRecipe = ({ params }: { params: { recipe_id: number } }) => {
               <RecipeAccordion />
             </div>
             <div className="basis-[35%]">
-              <RecipieSuggestions />
+              <RecipeSuggestions />
               <Ads />
             </div>
           </div>
@@ -34,7 +38,18 @@ const SingleRecipe = ({ params }: { params: { recipe_id: number } }) => {
       </section>
     );
   } else {
-    return <div>Recipe not found</div>;
+    return (
+      <div className="min-h-[calc(100vh-300px)] w-full flex flex-col items-center justify-center">
+        <Container>
+          <div className="flex items-center flex-col justify-center h-full w-full">
+            Recipe not found{" "}
+            <Link href="/" className="text-red-600 font-semibold">
+              please check out other recipes
+            </Link>
+          </div>
+        </Container>
+      </div>
+    );
   }
 };
 

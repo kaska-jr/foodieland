@@ -1,7 +1,5 @@
 import React from "react";
-import Container from "../shared/Container";
-import Button from "../shared/Button";
-import { nanoid } from "nanoid";
+import { Container, Button } from "@/app/components";
 import { LEARN_MORE_DATA } from "@/app/utils/data";
 
 const LearnMore = () => {

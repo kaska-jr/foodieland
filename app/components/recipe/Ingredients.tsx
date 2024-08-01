@@ -1,24 +1,8 @@
 "use client";
 import React from "react";
-import Ingredient from "./Ingredient";
-const INGREDIENTS_DATA = [
-  {
-    id: 1,
-    name: "Lorem ipsum dolor sit amet",
-  },
-  {
-    id: 2,
-    name: "Lorem ipsum dolor sit amet",
-  },
-  {
-    id: 3,
-    name: "Lorem ipsum dolor sit amet",
-  },
-  {
-    id: 4,
-    name: "Lorem ipsum dolor sit amet",
-  },
-];
+import { Ingredient } from "@/app/components";
+import { INGREDIENTS_DATA } from "@/app/utils/data";
+
 const Ingredients = () => {
   return (
     <div>

@@ -2,10 +2,10 @@ import { RECIPE_SUGGESTIONS } from "@/app/utils/data";
 import Link from "next/link";
 import React from "react";
 
-const RecipieSuggestions = () => {
+const RecipeSuggestions = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold py-8 ">Other Recipies</h1>
+      <h1 className="text-3xl font-bold py-8 ">Other Recipes</h1>
       <div className="flex flex-col gap-4">
         {RECIPE_SUGGESTIONS.map((data) => {
           return (
@@ -35,4 +35,4 @@ const RecipieSuggestions = () => {
   );
 };
 
-export default RecipieSuggestions;
+export default RecipeSuggestions;

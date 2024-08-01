@@ -1,6 +1,5 @@
 import { INSTAGRAM_DATA } from "@/app/utils/data";
-import React from "react";
-import FeedPost from "./FeedPost";
+import { FeedPost } from "@/app/components";
 
 const FeedPosts = () => {
   return (
