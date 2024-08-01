@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  // Other Next.js configurations
+  swcMinify: true, // Enable SWC minification
+  // If using experimental features
+  experimental: {
+    fontLoaders: true,
+  },
+};
 
-export default nextConfig;
+module.exports = nextConfig;
