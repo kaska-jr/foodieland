@@ -24,7 +24,7 @@ const SingleRecipeHeader = ({ name }: { name: string }) => {
               </div>
               <div className="flex items-center gap-4 border-r border-gray-400 p-4">
                 <img
-                  src="/TImer.svg"
+                  src="/Timer.svg"
                   alt="chef-avatar"
                   className="w-8 h-8 rounded-full object-cover shrink-0"
                 />
@@ -37,7 +37,7 @@ const SingleRecipeHeader = ({ name }: { name: string }) => {
               </div>
               <div className="flex items-center gap-4 border-r border-gray-400 p-4">
                 <img
-                  src="/TImer.svg"
+                  src="/Timer.svg"
                   alt="chef-avatar"
                   className="w-8 h-8 rounded-full object-cover shrink-0"
                 />
