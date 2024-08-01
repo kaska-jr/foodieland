@@ -280,7 +280,7 @@ export const RECIPES: RECIPE_TYPE[] = [
 export const LEARN_MORE_DATA = [
   {
     id: nanoid(),
-    imgUrl: "/tomatoes.svg",
+    imgUrl: "/Tomatoes.svg",
     TagClasses:
       "block absolute left-0 -translate-x-1/2 bottom-[20%] w-10 h-auto lg:w-12 lg:h-auto ",
   },

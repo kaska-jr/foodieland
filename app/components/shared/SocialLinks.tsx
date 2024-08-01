@@ -3,7 +3,7 @@ import React from "react";
 
 const SocialLinks = () => {
   return (
-    <ul className="social-icons hidden md:flex gap-6">
+    <ul className="social-icons hidden lg:flex gap-6">
       {SOCIAL_LINKS.map((socialIcon) => {
         const { id, url, icon } = socialIcon;
         return (

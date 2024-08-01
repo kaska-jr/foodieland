@@ -4,6 +4,7 @@ import { RECIPES } from "@/app/utils/data";
 
 const Recipes = () => {
   function sliceArrayToFour(arr: RECIPE_TYPE[]) {
+    // This function takes an array of recipes and slices a portion of it.
     return arr.slice(0, 9);
   }
   const slicedRecipes = sliceArrayToFour(RECIPES);

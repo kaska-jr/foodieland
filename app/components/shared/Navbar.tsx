@@ -23,12 +23,12 @@ const Navbar = () => {
   return (
     <nav className="border-b">
       <Container>
-        <section className="my-0 mx-auto md:flex md:items-center md:justify-between p-2">
+        <section className="my-0 mx-auto lg:flex lg:items-center lg:justify-between p-2">
           <div className="flex items-center justify-between p-2 md:p-0">
             <Logo />
 
             <button
-              className="text-xl text-black transition-all cursor-pointer hover:scale-110 md:hidden"
+              className="text-xl text-black transition-all cursor-pointer hover:scale-110 lg:hidden"
               onClick={toggleLinks}
             >
               {showLinks ? <IoCloseOutline /> : <FaBars />}

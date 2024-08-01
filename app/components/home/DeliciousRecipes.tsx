@@ -3,10 +3,12 @@ import { RECIPES } from "@/app/utils/data";
 import React from "react";
 
 const DeliciousRecipes = () => {
+  // This function takes an array of recipes and slices a portion of it.
   function sliceArrayToFour(arr: RECIPE_TYPE[]) {
     return arr.slice(9, 17);
   }
   const slicedRecipes = sliceArrayToFour(RECIPES);
+
   return (
     <Container>
       <div className="flex flex-col md:flex-row text-center md:text-start gap-5 md:items-center py-10">

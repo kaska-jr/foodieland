@@ -12,7 +12,7 @@ const Categories = () => {
           buttonClasses="bg-secondary-100 text-secondary-200 dark:bg-secondary-100 dark:text-secondary-200"
         />
       </div>
-      <div className="flex items-center justify-between my-20">
+      <div className="flex items-center justify-between gap-4 my-20 flex-wrap">
         {CATEGORIES.map((CATEGORY) => {
           return <Category key={CATEGORY.id} {...CATEGORY} />;
         })}
