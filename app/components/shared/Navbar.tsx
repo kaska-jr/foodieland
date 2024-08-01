@@ -1,6 +1,9 @@
 "use client";
 import React, { useRef, useState } from "react";
-import { Container, Logo, NavLinks, SocialLinks } from "@/app/components";
+import Container from "./Container";
+import Logo from "./Logo";
+import NavLinks from "./NavLinks";
+import SocialLinks from "./SocialLinks";
 import { FaBars } from "react-icons/fa";
 import { IoCloseOutline } from "react-icons/io5";
 

@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "./Container";
-import { nanoid } from "nanoid";
-import { NAV_LINKS, SOCIAL_LINKS } from "@/app/utils/data";
+import { NAV_LINKS, SOCIAL_LINKS } from "../../utils/data";
 
 const Footer = () => {
   return (

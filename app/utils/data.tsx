@@ -1,3 +1,4 @@
+import React from "react";
 import { nanoid } from "nanoid";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
@@ -191,7 +192,7 @@ export const RECIPES: RECIPE_TYPE[] = [
       "bg-gradient-to-t from-[rgba(231,249,253,1)] to-[rgba(231,249,253,0.001)]",
   },
   {
-    id: 7,
+    id: 9,
     name: "The Creamiest Creamy Chicken and Bacon Pasta",
     recipeImg: "/recipe-img-8.png",
     loved: false,
@@ -202,7 +203,7 @@ export const RECIPES: RECIPE_TYPE[] = [
   },
 
   {
-    id: 8,
+    id: 10,
     name: "Mixed Tropical Fruit Salad with Superfood Boosts ",
     recipeImg: "/delicious-meal-1.png",
     loved: true,
@@ -211,7 +212,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     recipeClasses: "",
   },
   {
-    id: 9,
+    id: 11,
     name: "Big and Juicy Wagyu Beef Cheeseburger",
     recipeImg: "/delicious-meal-2.png",
     loved: false,
@@ -220,7 +221,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     recipeClasses: "",
   },
   {
-    id: 10,
+    id: 12,
     name: "Healthy Japanese Fried Rice with Asparagus",
     recipeImg: "/delicious-meal-3.png",
     loved: false,
@@ -229,7 +230,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     recipeClasses: "",
   },
   {
-    id: 11,
+    id: 13,
     name: "Cauliflower Walnut Vegetarian Taco Meat",
     recipeImg: "/delicious-meal-4.png",
     loved: true,
@@ -238,7 +239,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     recipeClasses: "",
   },
   {
-    id: 12,
+    id: 14,
     name: "Chicken Meatballs with Cream Cheese Sauce",
     recipeImg: "/delicious-meal-5.png",
     loved: false,
@@ -248,7 +249,7 @@ export const RECIPES: RECIPE_TYPE[] = [
   },
 
   {
-    id: 13,
+    id: 15,
     name: "Barbeque Spicy Sandwiches with Chips and Hummus",
     recipeImg: "/delicious-meal-6.png",
     loved: false,
@@ -257,7 +258,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     recipeClasses: "",
   },
   {
-    id: 14,
+    id: 16,
     name: "Firecracker Vegan Lettuce Wraps - Spicy!  ",
     recipeImg: "/delicious-meal-7.png",
     loved: false,
@@ -266,7 +267,7 @@ export const RECIPES: RECIPE_TYPE[] = [
     recipeClasses: "",
   },
   {
-    id: 15,
+    id: 17,
     name: "Chicken Ramen Soup with Mushroom ",
     recipeImg: "/delicious-meal-8.png",
     loved: false,
@@ -368,19 +369,19 @@ export const INSTAGRAM_DATA: INSTAGRAM_TYPE[] = [
 //Recipe Suggestions
 export const RECIPE_SUGGESTIONS: RECIPE_SUGGESTIONS_TYPE[] = [
   {
-    id: 5,
+    id: 500,
     name: "Chicken Meatballs with Cream Cheese Sauce",
     img: "/recipe-img-5.png",
     author: "By Andreas Paula",
   },
   {
-    id: 7,
+    id: 562,
     name: "The Creamiest Creamy Chicken and Bacon Pasta",
     img: "/recipe-img-7.png",
     author: "By Andreas Paula",
   },
   {
-    id: 9,
+    id: 452,
     name: "Big and Juicy Wagyu Beef Cheeseburger",
     img: "/recipe-img-8.png",
     author: "By Andreas Paula",

@@ -86,6 +86,8 @@ const Hero = () => {
           />
         </div>
       </div>
+
+      {/* <div className="w-full h-[calc(100vh-180px)] rounded-3xl min-h-[350px] border border-red-600 dark:bg-secondary-100 bg-secondary-100 fixed left-[-0%]"></div> */}
     </Container>
   );
 };
